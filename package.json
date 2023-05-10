@@ -1,0 +1,25 @@
+{
+  "name": "fanz-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test jest test --verbose",
+    "start": "nodemon bin/www.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "ethereum-address": "^0.0.4",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "graphql-request": "^6.0.0",
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22",
+    "supertest": "^6.3.3",
+    "web3": "^1.9.0"
+  }
+}
