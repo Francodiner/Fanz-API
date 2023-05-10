@@ -9,7 +9,9 @@ The project has different endpoints to obtain event information on the blockchai
 # Backend
 
 -NodeJS, Express, Web3, GraphQL and Axios were used for the creation of the backend.
+
 -Supertest and Jest were used for testing.
+
 -We have services for the calls to the API´s and queries linked to them, which are executed in the controller together with the business logic.
 
 ## Available routes:
@@ -38,12 +40,11 @@ $ git clone [URL]
 # Backend
 
 2. Change **_.env.sample_** to **_.env_**
-3. Add the following data:
-4. Run `npm install` in your terminal
-5. Run `npm start` to start the server and watch changes
+3. Run `npm install` in your terminal
+4. Run `npm start` to start the server and watch changes
 
 # Testing
 
-6. Run `npm run test` to test the endpoints
+5. Run `npm run test` to test the endpoints
 
 Have fun :)
