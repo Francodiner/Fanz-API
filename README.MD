@@ -1,4 +1,4 @@
-# FANZ Backend Challenge
+# FANZ API
 
 ### Description
 
